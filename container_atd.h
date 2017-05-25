@@ -1,0 +1,20 @@
+#pragma once
+
+#include <fstream>
+#include "typ_atd.h"
+#include "list_atd.h"
+#include "lang_atd.h"
+using namespace std;
+
+namespace languages {
+	class container {
+		int NUM; // текущая длина
+		list *cont;
+	public:
+		void In(ifstream &ifst); // ввод фигур
+		void Out(ofstream &ofst); // вывод фигур
+		void ClearContainer(); // очистка контейнера от фигур
+		container() {}; // инициализация контейнера
+		~container() { ClearContainer(); } // утилизация контейнера
+	};
+}
