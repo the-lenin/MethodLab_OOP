@@ -15,6 +15,8 @@ namespace languages {
 		bool Compare(lang *l);
 		virtual void InData(ifstream &ifst) = 0; // ввод
 		virtual void Out(ofstream &ofst) = 0; // вывод
+
+		virtual void OutOnlyProced(ofstream &ofst);
 	protected:
 		lang() {};
 	};
