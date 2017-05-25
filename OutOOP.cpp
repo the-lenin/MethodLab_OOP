@@ -17,7 +17,7 @@ namespace languages {
 		default:
 			break;
 		}
-		ofst << " inharitance," << endl;
+		ofst << " inharitance,";
 	}
 }
 

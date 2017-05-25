@@ -11,8 +11,8 @@ namespace languages {
 			ofst << s + 1 << " :  ";
 
 			cur->language->Out(ofst);
-			ofst << " invented in " << cur->language->age << '.';
-			ofst << endl;
+			ofst << " invented in " << cur->language->age << '.' << endl;
+			ofst << "\tLanguage mentioned in the Inet " << cur->language->reference << " times." << endl;
 			cur = cur->next;
 			++s;
 

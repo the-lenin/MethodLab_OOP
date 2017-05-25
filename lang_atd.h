@@ -7,6 +7,7 @@ namespace languages {
 	public:
 		typ t;
 		short age;
+		int reference;
 	
 		static lang* In(ifstream &ifst);
 		virtual void InData(ifstream &ifst) = 0; // ввод
