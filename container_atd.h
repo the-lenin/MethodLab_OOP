@@ -20,6 +20,7 @@ namespace languages {
 
 		virtual void OutOnlyProced(ofstream &ofst);
 
+
 		container() { cont = NULL; NUM = 0; }; // инициализация контейнера
 		~container() { ClearContainer(); } // утилизация контейнера
 	};
