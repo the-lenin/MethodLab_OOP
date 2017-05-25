@@ -4,8 +4,8 @@ namespace languages {
 	void proced::Out(ofstream &ofst) {
 		ofst << "This is Procedural language: ";
 		if (abstr)
-			ofst << "have abstract types of data," << endl;
+			ofst << "have abstract types of data,";
 		else
-			ofst << "don't have abstract types of data," << endl;
+			ofst << "don't have abstract types of data,";
 	}
 }

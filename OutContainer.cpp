@@ -12,6 +12,7 @@ namespace languages {
 
 			cur->language->Out(ofst);
 			ofst << " invented in " << cur->language->age << '.';
+			ofst << " It is " << cur->language->YearsOld() << " years old." << endl;
 			ofst << endl;
 			cur = cur->next;
 			++s;
