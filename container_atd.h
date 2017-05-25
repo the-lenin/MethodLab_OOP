@@ -14,7 +14,8 @@ namespace languages {
 		void In(ifstream &ifst); // ввод фигур
 		void Out(ofstream &ofst); // вывод фигур
 		void ClearContainer(); // очистка контейнера от фигур
-		container() {}; // инициализация контейнера
+		virtual void OutOnlyProced(ofstream &ofst);
+		container() { cont = NULL; NUM = 0; }; // инициализация контейнера
 		~container() { ClearContainer(); } // утилизация контейнера
 	};
 }

@@ -9,6 +9,7 @@ namespace languages {
 		// переопределяем интерфейс класса
 		void InData(ifstream &ifst); // ввод
 		void Out(ofstream &ofst); // вывод
+		void OutOnlyProced(ofstream &ofst);
 		proced() {} // создание без инициализации.
 	};
 }
