@@ -3,7 +3,7 @@
 namespace languages {
 	void functional::InData(ifstream &ifst) {
 		int typific;
-		ifst >> age >> typific >> lazycalc;
+		ifst >> typific >> lazycalc;
 		switch (typific)
 		{
 			case 1:
