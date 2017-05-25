@@ -8,8 +8,9 @@ namespace languages {
 	public:
 		typ t;
 		short age;
-
 		int YearsOld();
+		int reference;
+	
 		static lang* In(ifstream &ifst);
 		bool Compare(lang *l);
 		virtual void InData(ifstream &ifst) = 0; // ввод

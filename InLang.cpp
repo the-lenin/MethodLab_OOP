@@ -12,14 +12,13 @@ namespace languages {
 			break;
 		case 1:
 			l = new proced;
-
 			break;
 		default:
 			return 0;
 		}
 		ifst >> l->age;
 		l->InData(ifst);
-
+		ifst >> l->reference;
 		return l;
 	}
 }
