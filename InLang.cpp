@@ -13,6 +13,9 @@ namespace languages {
 		case 1:
 			l = new proced;
 			break;
+		case 2:
+			l = new functional;
+			break;
 		default:
 			return 0;
 		}
