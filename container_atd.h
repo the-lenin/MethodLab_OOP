@@ -8,13 +8,16 @@ using namespace std;
 
 namespace languages {
 	class container {
+		
+	public:
 		int NUM; // текущая длина
 		list *cont;
-	public:
+
+		void Sort();
 		void In(ifstream &ifst); // ввод фигур
 		void Out(ofstream &ofst); // вывод фигур
 		void ClearContainer(); // очистка контейнера от фигур
-		container() {}; // инициализация контейнера
+		container() { cont = NULL; NUM = 0; }; // инициализация контейнера
 		~container() { ClearContainer(); } // утилизация контейнера
 	};
 }
