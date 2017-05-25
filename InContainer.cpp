@@ -2,7 +2,8 @@
 
 namespace languages {
 	void container::In(ifstream &ifst) {
-		list* cur = cont;
+		list* cur = new list;
+		cur = cont;
 		if (cont == NULL)
 		{
 			cont = new list;
