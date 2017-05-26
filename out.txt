@@ -1,41 +1,41 @@
 Filled container. 
 Container contains 12 elements.
-1 :  This is Procedural language: have abstract types of data,  invented in 1956. It is 61 years old.
-	Language mentioned in the Inet 40 times.
-2 :  It is Functional language: has dynamic typification and don't support 'lazy' calculating. invented in 1957. It is 60 years old.
-	Language mentioned in the Inet 40000 times.
-3 :  This is Procedural language: have abstract types of data,  invented in 1981. It is 36 years old.
-	Language mentioned in the Inet 10003 times.
-4 :  It is OOP language:  has interface inharitance, invented in 1987. It is 30 years old.
-	Language mentioned in the Inet 10002 times.
-5 :  This is Procedural language: don't have abstract types of data,  invented in 1992. It is 25 years old.
-	Language mentioned in the Inet 30 times.
+1 :  It is OOP language:  has multiple inharitance, invented in 2017. It is 0 years old.
+	Language mentioned in the Inet 20 times.
+2 :  It is OOP language:  has single inharitance, invented in 2017. It is 0 years old.
+	Language mentioned in the Inet 1000 times.
+3 :  It is OOP language:  has interface inharitance, invented in 2016. It is 1 years old.
+	Language mentioned in the Inet 10004 times.
+4 :  It is OOP language:  has multiple inharitance, invented in 1998. It is 19 years old.
+	Language mentioned in the Inet 10000 times.
+5 :  This is Procedural language: don't have abstract types of data,  invented in 1995. It is 22 years old.
+	Language mentioned in the Inet 10001 times.
 6 :  This is Procedural language: have abstract types of data,  invented in 1993. It is 24 years old.
 	Language mentioned in the Inet 10 times.
 7 :  It is Functional language: has dynamic typification and don't support 'lazy' calculating. invented in 1993. It is 24 years old.
 	Language mentioned in the Inet 30000 times.
-8 :  This is Procedural language: don't have abstract types of data,  invented in 1995. It is 22 years old.
-	Language mentioned in the Inet 10001 times.
-9 :  It is OOP language:  has multiple inharitance, invented in 1998. It is 19 years old.
-	Language mentioned in the Inet 10000 times.
-10 :  It is OOP language:  has interface inharitance, invented in 2016. It is 1 years old.
-	Language mentioned in the Inet 10004 times.
-11 :  It is OOP language:  has multiple inharitance, invented in 2017. It is 0 years old.
-	Language mentioned in the Inet 20 times.
-12 :  It is OOP language:  has single inharitance, invented in 2017. It is 0 years old.
-	Language mentioned in the Inet 1000 times.
+8 :  This is Procedural language: don't have abstract types of data,  invented in 1992. It is 25 years old.
+	Language mentioned in the Inet 30 times.
+9 :  It is OOP language:  has interface inharitance, invented in 1987. It is 30 years old.
+	Language mentioned in the Inet 10002 times.
+10 :  This is Procedural language: have abstract types of data,  invented in 1981. It is 36 years old.
+	Language mentioned in the Inet 10003 times.
+11 :  It is Functional language: has dynamic typification and don't support 'lazy' calculating. invented in 1957. It is 60 years old.
+	Language mentioned in the Inet 40000 times.
+12 :  This is Procedural language: have abstract types of data,  invented in 1956. It is 61 years old.
+	Language mentioned in the Inet 40 times.
 Only procedure.
-0: This is Procedural language: have abstract types of data,  invented in 1956.
+0: 
 1: 
-2: This is Procedural language: have abstract types of data,  invented in 1981.
+2: 
 3: 
-4: This is Procedural language: don't have abstract types of data,  invented in 1992.
+4: This is Procedural language: don't have abstract types of data,  invented in 1995.
 5: This is Procedural language: have abstract types of data,  invented in 1993.
 6: 
-7: This is Procedural language: don't have abstract types of data,  invented in 1995.
+7: This is Procedural language: don't have abstract types of data,  invented in 1992.
 8: 
-9: 
+9: This is Procedural language: have abstract types of data,  invented in 1981.
 10: 
-11: 
+11: This is Procedural language: have abstract types of data,  invented in 1956.
 Empty container. 
 Container contains 0 elements.

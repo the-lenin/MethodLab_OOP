@@ -10,12 +10,7 @@ namespace languages {
 		{
 			ofst << s + 1 << " :  ";
 
-			cur->language->Out(ofst);
-
-			ofst << " invented in " << cur->language->age << '.';
-			ofst << " It is " << cur->language->YearsOld() << " years old." << endl;
-
-			ofst << "\tLanguage mentioned in the Inet " << cur->language->reference << " times." << endl;
+			cur->language->OutData(ofst);
 
 			cur = cur->next;
 			++s;

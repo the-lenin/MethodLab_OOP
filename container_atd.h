@@ -13,7 +13,7 @@ namespace languages {
 		int NUM; // текущая длина
 		list *cont;
 
-		void Sort();
+		void Sort(bool descendingly);
 		void In(ifstream &ifst); // ввод фигур
 		void Out(ofstream &ofst); // вывод фигур
 		void ClearContainer(); // очистка контейнера от фигур
