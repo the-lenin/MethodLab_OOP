@@ -2,8 +2,17 @@
 
 namespace languages {
 	void oop::InData(ifstream &ifst) {
+		CheckInFile(ifst);
 		int inh;
 		ifst >> inh;
+		CheckInValue(ifst);
+		CheckNegative(inh);
+		if (inh > 3)
+		{
+			cout << "Error. Incorrect value: inheritance." << endl;
+			system("pause");
+			exit(1);
+		}
 		switch (inh)
 		{
 		case 0:

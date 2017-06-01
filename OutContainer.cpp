@@ -3,6 +3,7 @@
 
 namespace languages {
 	void container::Out(ofstream &ofst) {
+		CheckOutFile(ofst);
 		ofst << "Container contains " << NUM << " elements." << endl;
 		list* cur = cont;
 		int s = 0;

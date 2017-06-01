@@ -2,6 +2,7 @@
 
 namespace languages {
 	void functional::Out(ofstream &ofst) {
+		CheckOutFile(ofst);
 		ofst << "It is Functional language: has ";
 		switch (typ)
 		{

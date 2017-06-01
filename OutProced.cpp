@@ -2,6 +2,7 @@
 
 namespace languages {
 	void proced::Out(ofstream &ofst) {
+		CheckOutFile(ofst);
 		ofst << "This is Procedural language: ";
 		if (abstr)
 			ofst << "have abstract types of data, ";

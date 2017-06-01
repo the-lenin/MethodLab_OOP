@@ -16,7 +16,10 @@
 
 using namespace std;
 
-
+void CheckInFile(ifstream &file);
+void CheckInValue(ifstream &file);
+void CheckNegative(float value);
+void CheckOutFile(ofstream &file);
 
 
 

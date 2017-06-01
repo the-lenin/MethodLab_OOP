@@ -2,6 +2,7 @@
 
 namespace languages {
 	void container::In(ifstream &ifst) {
+		CheckInFile(ifst);
 		list* cur = new list;
 		cur = cont;
 		if (cont == NULL)

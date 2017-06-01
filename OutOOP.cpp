@@ -2,6 +2,7 @@
 
 namespace languages {
 	void oop::Out(ofstream &ofst) {
+		CheckOutFile(ofst);
 		ofst << "It is OOP language:  has ";
 		switch (a)
 		{
