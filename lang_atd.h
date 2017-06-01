@@ -3,8 +3,10 @@
 #include "typ_atd.h"
 
 using namespace std;
-namespace languages {
-	class lang {
+namespace languages 
+{
+	class lang 
+	{
 	public:
 		typ t;
 		short age;

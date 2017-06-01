@@ -1,8 +1,10 @@
 #include "main.h"
 
 
-namespace languages {
-	void container::Out(ofstream &ofst) {
+namespace languages 
+{
+	void container::Out(ofstream &ofst) 
+	{
 		CheckOutFile(ofst);
 		ofst << "Container contains " << NUM << " elements." << endl;
 		list* cur = cont;
@@ -20,8 +22,6 @@ namespace languages {
 
 			cur = cur->next;
 			++s;
-
-
 		}
 
 	}

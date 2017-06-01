@@ -2,7 +2,8 @@
 #include <time.h>
 
 
-namespace languages {
+namespace languages 
+{
 	int lang::YearsOld()
 	{
 		time_t t;

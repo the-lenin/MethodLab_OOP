@@ -1,7 +1,9 @@
 #include "main.h"
 
-namespace languages {
-	void proced::InData(ifstream &ifst) {
+namespace languages 
+{
+	void proced::InData(ifstream &ifst) 
+	{
 		CheckInFile(ifst);
 		ifst >> abstr;
 		CheckInValue(ifst);

@@ -2,7 +2,8 @@
 #include "lang_atd.h"
 
 
-namespace languages {
+namespace languages 
+{
 	bool lang::Compare(lang *l)
 	{
 		if (YearsOld() < l->YearsOld())

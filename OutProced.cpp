@@ -1,7 +1,9 @@
 #include "main.h"
 
-namespace languages {
-	void proced::Out(ofstream &ofst) {
+namespace languages 
+{
+	void proced::Out(ofstream &ofst) 
+	{
 		CheckOutFile(ofst);
 		ofst << "This is Procedural language: ";
 		if (abstr)

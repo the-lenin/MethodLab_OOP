@@ -4,9 +4,11 @@
 #include "lang_atd.h"
 
 
-namespace languages {
-	class oop : public lang {
-		enum inheritance { single, multiple, interf };
+namespace languages 
+{
+	class oop : public lang 
+	{
+		enum inheritance { SINGLE, MULTIPLE, INTERF };
 		inheritance a;
 	public:
 		// переопределяем интерфейс класса

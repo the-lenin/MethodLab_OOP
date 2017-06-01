@@ -2,8 +2,10 @@
 
 #include "lang_atd.h"
 
-namespace languages {
-	class functional : public lang {
+namespace languages 
+{
+	class functional : public lang 
+	{
 	public:
 
 		enum typification { EXACT, DYNAMIC };

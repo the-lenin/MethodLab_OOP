@@ -6,8 +6,10 @@
 #include "lang_atd.h"
 using namespace std;
 
-namespace languages {
-	class container {
+namespace languages 
+{
+	class container 
+	{
 		
 	public:
 		int NUM; // текущая длина

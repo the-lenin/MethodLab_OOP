@@ -1,15 +1,18 @@
 #include "main.h"
 
 
-namespace languages {
-	lang* lang::In(ifstream &ifst) {
+namespace languages 
+{
+	lang* lang::In(ifstream &ifst) 
+	{
 		CheckInFile(ifst);
 		lang *l;
 		int k;
 		ifst >> k;
 		CheckInValue(ifst);
 		CheckNegative(k);
-		switch (k) {
+		switch (k) 
+		{
 		case 0:
 			l = new oop;
 			break;

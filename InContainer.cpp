@@ -1,7 +1,9 @@
 #include "main.h"
 
-namespace languages {
-	void container::In(ifstream &ifst) {
+namespace languages 
+{
+	void container::In(ifstream &ifst) 
+	{
 		CheckInFile(ifst);
 		list* cur = new list;
 		cur = cont;
@@ -18,7 +20,8 @@ namespace languages {
 			cur = cur->next;
 		}
 		list* prev = cur;
-		while (!ifst.eof()) {
+		while (!ifst.eof()) 
+		{
 			if ((cur->language = lang::In(ifst)) != 0)
 			{
 				++NUM;

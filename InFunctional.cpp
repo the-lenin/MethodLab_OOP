@@ -1,7 +1,9 @@
 #include "main.h"
 
-namespace languages {
-	void functional::InData(ifstream &ifst) {
+namespace languages 
+{
+	void functional::InData(ifstream &ifst) 
+	{
 		CheckInFile(ifst);
 		int typific;
 		ifst >> typific;

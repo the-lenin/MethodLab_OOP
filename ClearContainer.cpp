@@ -1,7 +1,9 @@
 #include "main.h" 
 
-namespace languages {
-	void container::ClearContainer() {
+namespace languages 
+{
+	void container::ClearContainer() 
+	{
 		list* a;
 		while (cont != NULL && NUM > 0)
 		{
