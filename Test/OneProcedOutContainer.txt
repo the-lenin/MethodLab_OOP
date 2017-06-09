@@ -1,0 +1,3 @@
+Container contains 1 elements.
+1 :  This is Procedural language: have abstract types of data,  invented in 1950. It is 67 years old.
+	Language mentioned in the Inet 100000 times.

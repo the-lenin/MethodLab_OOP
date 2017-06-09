@@ -1,0 +1,1 @@
+It is Functional language: has exact typification and don't support 'lazy' calculating.

@@ -1,0 +1,1 @@
+This is Procedural language: don't have abstract types of data, 

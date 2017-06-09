@@ -1,0 +1,13 @@
+Container contains 6 elements.
+1 :  It is Functional language: has dynamic typification and support 'lazy' calculating. invented in 1998. It is 19 years old.
+	Language mentioned in the Inet 354 times.
+2 :  This is Procedural language: have abstract types of data,  invented in 1995. It is 22 years old.
+	Language mentioned in the Inet 500 times.
+3 :  It is Functional language: has dynamic typification and don't support 'lazy' calculating. invented in 1997. It is 20 years old.
+	Language mentioned in the Inet 35400 times.
+4 :  It is OOP language:  has interface inharitance, invented in 1991. It is 26 years old.
+	Language mentioned in the Inet 100000 times.
+5 :  This is Procedural language: don't have abstract types of data,  invented in 1990. It is 27 years old.
+	Language mentioned in the Inet 20000 times.
+6 :  It is OOP language:  has multiple inharitance, invented in 1985. It is 32 years old.
+	Language mentioned in the Inet 10500 times.
