@@ -22,6 +22,7 @@ namespace languages
 			ofst << "support 'lazy' calculating.";
 		else
 			ofst << "don't support 'lazy' calculating.";
+		ofst << endl;
 
 	}
 }

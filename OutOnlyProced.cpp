@@ -30,5 +30,7 @@ namespace languages {
 			cur = cur->next;
 
 		}
+
+		ofst << endl;
 	}
 }

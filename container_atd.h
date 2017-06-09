@@ -19,7 +19,7 @@ namespace languages
 		void In(ifstream &ifst); // ввод фигур
 		void Out(ofstream &ofst); // вывод фигур
 		void ClearContainer(); // очистка контейнера от фигур
-
+		void MultiMethod(ofstream &ofst);
 		virtual void OutOnlyProced(ofstream &ofst);
 
 

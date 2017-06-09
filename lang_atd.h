@@ -19,6 +19,12 @@ namespace languages
 		virtual void Out(ofstream &ofst) = 0; // вывод
 
 		virtual void OutOnlyProced(ofstream &ofst);
+
+		virtual void MultiMethod(lang *other, ofstream &f) = 0;
+		virtual void MultiMethodCaseOOP(ofstream &f) = 0;
+		virtual void MultiMethodCaseProced(ofstream &f) = 0;
+		virtual void MultiMethodCaseFunctional(ofstream &f) = 0;
+
 	protected:
 		lang() {};
 	};

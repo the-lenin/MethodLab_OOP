@@ -10,6 +10,6 @@ namespace languages
 			ofst << "have abstract types of data, ";
 		else
 			ofst << "don't have abstract types of data, ";
-
+		ofst << endl;
 	}
 }

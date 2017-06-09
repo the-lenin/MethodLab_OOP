@@ -15,5 +15,10 @@ namespace languages
 		void InData(ifstream &ifst); // ввод
 		void Out(ofstream &ofst); // вывод
 		oop() {} // создание без инициализации.
+
+		void MultiMethod(lang *other, ofstream &file);
+		void MultiMethodCaseOOP(ofstream &file);
+		void MultiMethodCaseProced(ofstream &file);
+		void MultiMethodCaseFunctional(ofstream &file);
 	};
 }

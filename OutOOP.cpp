@@ -21,6 +21,7 @@ namespace languages
 			break;
 		}
 		ofst << " inharitance,";
+		ofst << endl;
 	}
 }
 
